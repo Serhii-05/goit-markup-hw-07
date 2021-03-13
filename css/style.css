@@ -47,7 +47,11 @@ a {
   min-height: 80px;
 }
 
-.logo-container {
+.header__container {
+  display: flex;
+}
+
+.header-nav__container {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 93px;
@@ -61,8 +65,22 @@ a {
   line-height: 1.19;
 }
 
-.logo-hed {
+.logo-header {
   color: var(--logo-color);
+}
+
+.header-nav,
+.nav-list,
+.contacts-list {
+  display: flex;
+}
+
+.nav-list__item {
+  margin-left: 50px;
+}
+
+.nav-list__item:first-child {
+  margin-left: 0;
 }
 
 .link-nav.current {
@@ -101,6 +119,14 @@ a {
   color: var(--link-button-blue-color);
 }
 
+.contacts-list {
+  margin-left: auto;
+}
+
+.contacts-list li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .link-header {
   color: var(--text-color);
   font-weight: 500;
@@ -118,40 +144,14 @@ a {
   transition: color 250ms var(--cubic);
 }
 
-.nav-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
 .link-header:hover,
 .link-header:focus {
   color: var(--link-button-blue-color);
 }
 
-.header .container {
-  display: flex;
-}
-
-.header-nav,
-.nav-list,
-.contacts-list {
-  display: flex;
-}
-
-.nav-list li {
-  margin-left: 50px;
-}
-
-.nav-list li:first-child {
-  margin-left: 0;
-}
-
-.contacts-list {
-  margin-left: auto;
-}
-
-.contacts-list li:not(:last-child) {
-  margin-right: 50px;
+.nav-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /*studio-main*/
