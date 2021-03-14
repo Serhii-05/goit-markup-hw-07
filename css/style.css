@@ -953,7 +953,7 @@ a {
   border: none;
 }
 
-.checkbox:checked + .checkbox__use {
+.checkbox:checked + .checkbox__icon .checkbox__use {
   display: block;
 }
 
