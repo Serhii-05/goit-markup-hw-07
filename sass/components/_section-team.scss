@@ -2,9 +2,8 @@
   background-color: var(--button-background-color);
   padding-bottom: 94px;
   padding-top: 94px;
-}
-
-.team__heading {
+  
+  &__heading {
   color: var(--heading-text-color);
 
   font-weight: bold;
@@ -15,11 +14,7 @@
   margin-bottom: 50px;
 
   text-align: center;
-}
-
-.team-list {
-  display: flex;
-  justify-content: space-between;
+ }
 }
 
 .list-icon {
@@ -51,6 +46,11 @@
 
 .list-icon__icon {
   fill: currentColor;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .team-list__container {

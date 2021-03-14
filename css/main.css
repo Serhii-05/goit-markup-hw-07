@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*переменные*/
 :root {
   --link-button-blue-color: #2196f3;
   --moz-background-hero-foter-color: #2f303a;
@@ -253,7 +253,7 @@ a {
   margin-left: 30px;
 }
 
-.features-list_container {
+.features-list__container {
   background-color: var(--button-background-color);
   margin-bottom: 30px;
   border-radius: 4px;
@@ -351,15 +351,6 @@ a {
   text-align: center;
 }
 
-.team-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .list-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,6 +392,15 @@ a {
 
 .list-icon__icon {
   fill: currentColor;
+}
+
+.team-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .team-list__container {
@@ -472,8 +472,7 @@ a {
   transition: border 250ms var(--cubic), color 250ms var(--cubic);
 }
 
-.client-list__link:hover,
-.client-list__link:focus {
+.client-list__link:hover, .client-list__link:focus {
   color: var(--link-button-blue-color);
   border: 1px solid var(--link-button-blue-color);
 }
@@ -514,8 +513,7 @@ a {
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic), box-shadow 250ms var(--cubic), -webkit-box-shadow 250ms var(--cubic);
 }
 
-.list-button__button:hover,
-.list-button__button:focus {
+.list-button__button:hover, .list-button__button:focus {
   background-color: var(--link-button-blue-color);
   color: var(--text-fone);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -722,8 +720,7 @@ a {
   transition: background 250ms var(--cubic);
 }
 
-.social-list__link:hover,
-.social-list__link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background: var(--link-button-blue-color);
 }
 
@@ -851,8 +848,7 @@ a {
   fill: currentColor;
 }
 
-.modal__icon:hover,
-.modal__icon:focus {
+.modal__icon:hover, .modal__icon:focus {
   color: var(--link-button-blue-color);
   -webkit-transition: color 250ms var(--cubic);
   transition: color 250ms var(--cubic);
@@ -979,6 +975,12 @@ a {
   position: relative;
 }
 
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .checkbox__label {
   font-size: 14px;
   line-height: 1.71;
@@ -997,12 +999,6 @@ a {
   color: var(--link-button-blue-color);
   padding-left: 0 auto;
   padding-right: 0 auto;
-}
-
-.checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .checkbox__icon {
@@ -1027,11 +1023,11 @@ a {
   display: block;
 }
 
-.modal-button__container {
+.submit-container {
   text-align: center;
 }
 
-.modal-button__form {
+.submit-container__button {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-fone);
@@ -1044,8 +1040,7 @@ a {
   cursor: pointer;
 }
 
-.modal-button__form:hover,
-.modal-button__form:focus {
+.submit-container__button:hover, .submit-container__button:focus {
   background: var(--modal-button-form-background);
   -webkit-transition: background 250ms var(--cubic);
   transition: background 250ms var(--cubic);

@@ -3,11 +3,13 @@
 .header {
   border-bottom: 1px solid var(--border-header);
   min-height: 80px;
-}
 
-.header__container {
+&__container {
   display: flex;
 }
+}
+
+
 
 .header-nav__container {
   padding-top: 24px;

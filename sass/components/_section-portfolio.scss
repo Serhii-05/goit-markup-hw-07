@@ -8,32 +8,34 @@
   justify-content: center;
 
   margin-bottom: 50px;
+  
+     &__button {
+    border-radius: 4px;
+    border: none;
+    color: var(--heading-text-color);
+    background-color: var(--button-background-color);
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+    padding: 6px 22px;
+    transition: color 250ms var(--cubic), background-color 250ms var(--cubic),
+      box-shadow 250ms var(--cubic);
 }
 
-.list-button__button {
-  border-radius: 4px;
-  border: none;
-  color: var(--heading-text-color);
-  background-color: var(--button-background-color);
-  cursor: pointer;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-
-  padding: 6px 22px;
-  transition: color 250ms var(--cubic), background-color 250ms var(--cubic),
-    box-shadow 250ms var(--cubic);
+   &__button:hover,
+   &__button:focus {
+     background-color: var(--link-button-blue-color);
+     color: var(--text-fone);
+     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+       0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.list-button__button:hover,
-.list-button__button:focus {
-  background-color: var(--link-button-blue-color);
-  color: var(--text-fone);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 
 .list-button__item:not(:last-child) {
   margin-right: 8px;
@@ -102,25 +104,26 @@
 }
 
 .work-container {
-  padding: 20px 24px;
-  border-right: 1px solid var(--border-card-list);
-  border-left: 1px solid var(--border-card-list);
-  border-bottom: 1px solid var(--border-card-list);
+       padding: 20px 24px;
+       border-right: 1px solid var(--border-card-list);
+       border-left: 1px solid var(--border-card-list);
+       border-bottom: 1px solid var(--border-card-list);
+
+     &__heading {
+       color: var(--heading-text-color);
+
+       font-weight: bold;
+       font-size: 18px;
+       line-height: 2;
+       letter-spacing: 0.06em;
 }
 
-.work-container__heading {
-  color: var(--heading-text-color);
-
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.work-container__text {
+     &__text {
   color: var(--text-color);
 
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
+       font-size: 16px;
+       line-height: 1.87;
+       letter-spacing: 0.03em;
 }
+}
+

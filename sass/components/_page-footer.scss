@@ -2,12 +2,14 @@
   background-color: var(--moz-background-hero-foter-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.footer__container {
+&__container {
   display: flex;
   align-items: baseline;
 }
+}
+
+
 
 .container-address {
   margin-right: 70px;
@@ -69,13 +71,12 @@
 .social-list {
   display: flex;
   justify-content: space-between;
-}
 
-.social-list__item {
+   &__item {
   padding-right: 10px;
 }
 
-.social-list__link {
+ &__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,9 +90,10 @@
   transition: background 250ms var(--cubic);
 }
 
-.social-list__link:hover,
-.social-list__link:focus {
+ &__link:hover,
+ &__link:focus {
   background: var(--link-button-blue-color);
+}
 }
 
 .social-list__icon {
