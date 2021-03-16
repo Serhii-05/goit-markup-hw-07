@@ -36,6 +36,8 @@
   height: 44px;
   color: var(--link-color);
   border-radius: 50%;
+
+  transition: background 250ms var(--cubic), color 250ms var(--cubic);
 }
 
 .list-icon__link:hover,
