@@ -132,6 +132,10 @@ a {
   color: var(--link-button-blue-color);
 }
 
+.nav-list-link__curent{
+  color: var(--link-button-blue-color);
+}
+
 .contacts-list {
   margin-left: auto;
 }
