@@ -14,23 +14,12 @@
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --modal-button-form-background: #188ce8;
   --link-color: #afb1b8;
-  --button-text: font-size 16px;
-  --section-heading: font-size 36px;
-  --nav-text: font-size 14px;
-  --feature-text: font-size 14px;
-  --team-text: font-size 16px;
-  --checkbox-text: font-size 14px;
-  --modal-text: font-size 12px;
-  --modal-heading-text: font-size 20px;
-  --direction-text: font-size 14px;
-  --work-container-text: font-size 16px;
-  --work-heading-text: font-size 18px;
-  --thumb-text: font-size 18px;
 }
 
 /*общие стили*/
 body {
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 img {
