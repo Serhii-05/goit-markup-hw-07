@@ -97,10 +97,6 @@ a {
   margin-left: 0;
 }
 
-.nav-list__current {
-  color: var(--link-button-blue-color);
-}
-
 .nav-list__current::after {
   position: absolute;
   display: inline-block;
@@ -132,7 +128,7 @@ a {
   color: var(--link-button-blue-color);
 }
 
-.nav-list-link__curent{
+.nav-list-link__current {
   color: var(--link-button-blue-color);
 }
 
