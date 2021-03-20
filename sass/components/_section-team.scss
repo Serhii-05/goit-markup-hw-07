@@ -2,14 +2,13 @@
   background-color: var(--button-background-color);
   padding-bottom: 94px;
   padding-top: 94px;
-  
+
   &__heading {
     color: var(--heading-text-color);
 
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
 
     margin-bottom: 50px;
 
@@ -72,7 +71,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 
 .team-list__text {
@@ -80,7 +78,6 @@
 
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 
   margin-top: 10px;
 }

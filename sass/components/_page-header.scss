@@ -4,13 +4,10 @@
   border-bottom: 1px solid var(--border-header);
   min-height: 80px;
 
-&__container {
-  display: flex;
+  &__container {
+    display: flex;
+  }
 }
-}
-
-
-
 
 .logo {
   color: var(--link-button-blue-color);
@@ -43,8 +40,6 @@
   margin-left: 0;
 }
 
-
-
 .nav-list__current::after {
   position: absolute;
   display: inline-block;
@@ -57,13 +52,11 @@
   border-radius: 2px;
 }
 
-
 .nav-list__link {
   position: relative;
 
   color: var(--heading-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -78,7 +71,7 @@
   color: var(--link-button-blue-color);
 }
 
-.nav-list-link__current{
+.nav-list-link__current {
   color: var(--link-button-blue-color);
 }
 
@@ -93,7 +86,6 @@
 .contacts-list__link {
   color: var(--text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
